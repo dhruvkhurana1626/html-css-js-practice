@@ -1,0 +1,17 @@
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.SubHeading{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+div{
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+}
