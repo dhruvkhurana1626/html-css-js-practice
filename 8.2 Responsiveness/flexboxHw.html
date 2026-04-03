@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            margin: 20px;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        .item{
+            background-color: blue;
+            height: 100px;
+            width: 100px;
+            border: 10px solid white;
+            flex: 1;
+        }
+
+        .first{
+            flex: 2;
+        }
+
+        .second{
+            flex:0.5;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Flexbox</h1>
+
+    <div class="container">
+        <div class="first item"></div>
+        <div class="second item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+
+    
+</body>
+</html>
