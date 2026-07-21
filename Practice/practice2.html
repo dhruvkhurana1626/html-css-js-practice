@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .container{
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 1fr 1fr 1.5fr;
+            grid-template-rows: 1fr 1fr;
+            border: 2px solid black;
+        }
+
+        .item{
+            display: flex;
+            margin: 15px;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid red;
+        }
+
+        .Cowboy{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+
+        .Scientist{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+
+        .Book{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="item Cowboy">C</div>
+        <div class="item Scientist">S</div>
+        <div class="item Book">B</div>
+    </div>
+    
+</body>
+</html>
